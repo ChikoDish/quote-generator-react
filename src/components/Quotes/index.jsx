@@ -1,6 +1,7 @@
 import React from 'react';
 import quotes from '../../db/quotes';
 
+//main component
 export default function QuoteAndcharacter(props) {
   const { quote, generateRandomQuote } = props;
   return (
