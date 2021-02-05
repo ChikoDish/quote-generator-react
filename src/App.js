@@ -9,7 +9,7 @@ export default class App extends Component {
     author: quotes[0].author,
   };
 
-  //generate diffrent quote function
+  //generate diffrent quote function ''
   generateRandomQuote = (arr) => {
     //get random numbers
     let num = Math.floor(Math.random() * quotes.length);
