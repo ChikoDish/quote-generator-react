@@ -6,7 +6,7 @@ import "./App.css";
 export default class App extends Component {
   state = {
     quote: quotes[0].quote,
-    character: quotes[0].character,
+    author: quotes[0].author,
   };
 
   //generate diffrent quote function
@@ -18,7 +18,7 @@ export default class App extends Component {
     //update state
     this.setState({
       quote: newQuote.quote,
-      character: newQuote.character,
+      author: newQuote.author,
     });
 
     this.shuffleQuotes(quotes);
