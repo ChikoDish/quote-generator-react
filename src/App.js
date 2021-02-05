@@ -4,7 +4,6 @@ import quotes from "./db/quotes";
 import "./App.css";
 
 export default class App extends Component {
-  //state
   state = {
     quote: quotes[0].quote,
     character: quotes[0].character,
