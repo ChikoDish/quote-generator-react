@@ -34,7 +34,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">The Simpsons Quote Generator</h1>
+        <h1 className="text-center">Ramdom Quote Generator</h1>
         <Quotes
           generateRandomQuote={this.generateRandomQuote}
           quote={this.state}
